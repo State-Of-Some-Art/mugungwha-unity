@@ -15,7 +15,7 @@ public class GameManager : MonoBehaviour
     public void StartGame()
     {
         startButton.SetActive(false);
-        timeLeft = 10;
+        timeLeft = 60;
         StartCoroutine("Tick");
     }
 
