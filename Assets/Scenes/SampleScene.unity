@@ -468,6 +468,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &645633622 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -575833054835934001, guid: e4ab59fd176982a448c6a765dbbf03a7, type: 3}
+  m_PrefabInstance: {fileID: 937237653}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -938,7 +943,11 @@ PrefabInstance:
     - target: {fileID: -6235608078092614243, guid: e4ab59fd176982a448c6a765dbbf03a7, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 7cde58fd840da2f4ead53eb44ab18afb, type: 2}
+      objectReference: {fileID: 2100000, guid: db39545e03ff921448ced40f9c0dd3b5, type: 2}
+    - target: {fileID: -6224867367046313154, guid: e4ab59fd176982a448c6a765dbbf03a7, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4c39603d55146a748a8810880b82ac4c, type: 2}
     - target: {fileID: -3311833779978474364, guid: e4ab59fd176982a448c6a765dbbf03a7, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -1147,8 +1156,8 @@ MonoBehaviour:
   speed: 150
   host: 127.0.0.1
   port: 65432
-  eye1: {fileID: -575833054835934001, guid: d434b09605966a54f99a4d7b27e5d2a7, type: 3}
-  eye2: {fileID: 0}
+  eye1: {fileID: 645633622}
+  eye2: {fileID: 645633622}
   glowMat: {fileID: 2100000, guid: 50b11ad92bfb6f748bad6995b62cf0ba, type: 2}
   normMat: {fileID: 2100000, guid: 8b80d9b6cf4142f4491ee5bec480a61e, type: 2}
   audioPlayer: {fileID: 1049048013}
